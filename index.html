@@ -3,11 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style src="./styles.css" type="text/css"></style>
     <link
       href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <script type="module" src="./app.js" defer></script>
 
     <title>Scoreboard</title>
   </head>
@@ -27,7 +29,9 @@
         <h3>Scores</h3>
       </span>
 
-      <table class="w-full text-left table-auto md:flex-row min-w-max">
+      <table
+        class="content-table w-full text-left table-auto md:flex-row min-w-max"
+      >
         <thead>
           <tr>
             <th class="p-4 border-b border-blue-gray-100 bg-blue-gray-50">
@@ -95,138 +99,7 @@
             </th>
           </tr>
         </thead>
-        <tbody>
-          <tr class="even:bg-blue-gray-50/50">
-            <td class="p-4">
-              <p
-                class="block font-sans text-sm antialiased font-bold leading-normal text-blue-gray-900"
-              >
-                1
-              </p>
-            </td>
-            <td class="p-4">
-              <p
-                class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900"
-              >
-                Cybernerds N1
-              </p>
-            </td>
-            <td class="p-4">
-              <p
-                class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900"
-              >
-                150
-              </p>
-            </td>
-            <td class="p-4">
-              <p
-                class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900"
-              >
-                300
-              </p>
-            </td>
-            <td class="p-4">
-              <p
-                class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900"
-              >
-                75
-              </p>
-            </td>
-            <td class="p-4">
-              <p
-                class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900"
-              >
-                300
-              </p>
-            </td>
-            <td class="p-4">
-              <p
-                class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900"
-              >
-                130
-              </p>
-            </td>
-            <td class="p-4">
-              <p
-                class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900"
-              >
-                300
-              </p>
-            </td>
-            <td class="p-4">
-              <p
-                class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900"
-              >
-                280
-              </p>
-            </td>
-          </tr>
-          <tr class="even:bg-blue-gray-50/50">
-            <td class="p-4">
-              <p
-                class="block font-sans text-sm antialiased font-bold leading-normal text-blue-gray-900 text-gray-900 whitespace-nowrap dark:text-white"
-              >
-                2
-              </p>
-            </td>
-            <td class="p-4">
-              <p
-                class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900"
-              >
-                Cybernerds N2
-              </p>
-            </td>
-            <td class="p-4">
-              <p
-                class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900"
-              >
-                35
-              </p>
-            </td>
-            <td class="p-4">
-              <p
-                class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900"
-              >
-                300
-              </p>
-            </td>
-            <td class="p-4">
-              <p
-                class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900"
-              >
-                145
-              </p>
-            </td>
-            <td class="p-4">
-              <p
-                class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900"
-              >
-                300
-              </p>
-            </td>
-            <td class="p-4">
-              <p
-                class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900"
-              >
-                250
-              </p>
-            </td>
-            <td class="p-4">
-              <p
-                class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900"
-              >
-                300
-              </p>
-            </td>
-            <td class="p-4">
-              <p
-                class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900"
-              >
-                395
-              </p>
-            </td>
-          </tr>
-        </tbody>
+        <tbody id="tbody"></tbody>
       </table>
     </div>
   </body>
