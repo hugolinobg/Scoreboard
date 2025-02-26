@@ -1,106 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./styles.css" />
-
-    <script type="module" src="./app.js" defer></script>
-
     <title>Scoreboard</title>
   </head>
-  <body class="items-center gap-6 p-10">
-    <div
-      class="relative text-center flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl"
-    >
-      <span
-        class="text-3xl font-bold py-8 text-center flex flex-col text-white bg-orange-500 shadow-md rounded-t-lg"
-      >
-        <h2>Nível 1</h2>
-      </span>
-
-      <span
-        class="text-2xl font-medium py-4 pl-4 text-left flex flex-col text-white bg-orange-400 shadow-md"
-      >
-        <h3>Scores</h3>
-      </span>
-
-      <table
-        class="content-table w-full text-left table-auto md:flex-row min-w-max"
-      >
-        <thead>
-          <tr>
-            <th class="p-4 border-b border-blue-gray-100 bg-blue-gray-50">
-              <p
-                class="block font-sans text-base antialiased font-medium leading-none text-blue-gray-900 opacity-70 text-orange-500"
-              >
-                Rank
-              </p>
-            </th>
-            <th class="p-4 border-b border-blue-gray-100 bg-blue-gray-50">
-              <p
-                class="block font-sans text-base antialiased font-medium leading-none text-blue-gray-900 opacity-70 text-orange-500"
-              >
-                Equipe
-              </p>
-            </th>
-            <th class="p-4 border-b border-blue-gray-100 bg-blue-gray-50">
-              <p
-                class="block font-sans text-base antialiased font-medium leading-none text-blue-gray-900 opacity-70 text-orange-500"
-              >
-                Round 1
-              </p>
-            </th>
-            <th class="p-4 border-b border-blue-gray-100 bg-blue-gray-50">
-              <p
-                class="block font-sans text-base antialiased font-medium leading-none text-blue-gray-900 opacity-70 text-orange-500"
-              >
-                Tempo 1
-              </p>
-            </th>
-            <th class="p-4 border-b border-blue-gray-100 bg-blue-gray-50">
-              <p
-                class="block font-sans text-base antialiased font-medium leading-none text-blue-gray-900 opacity-70 text-orange-500"
-              >
-                Round 2
-              </p>
-            </th>
-            <th class="p-4 border-b border-blue-gray-100 bg-blue-gray-50">
-              <p
-                class="block font-sans text-base antialiased font-medium leading-none text-blue-gray-900 opacity-70 text-orange-500"
-              >
-                Tempo 2
-              </p>
-            </th>
-            <th class="p-4 border-b border-blue-gray-100 bg-blue-gray-50">
-              <p
-                class="block font-sans text-base antialiased font-medium leading-none text-blue-gray-900 opacity-70 text-orange-500"
-              >
-                Round 3
-              </p>
-            </th>
-            <th class="p-4 border-b border-blue-gray-100 bg-blue-gray-50">
-              <p
-                class="block font-sans text-base antialiased font-medium leading-none text-blue-gray-900 opacity-70 text-orange-500"
-              >
-                Tempo 3
-              </p>
-            </th>
-            <th class="p-4 border-b border-blue-gray-100 bg-blue-gray-50">
-              <p
-                class="block font-sans text-base antialiased font-medium leading-none text-blue-gray-900 opacity-70 text-orange-500"
-              >
-                Final
-              </p>
-            </th>
-          </tr>
-        </thead>
-        <tbody id="tbody"></tbody>
-      </table>
-    </div>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

@@ -1,6 +1,6 @@
 import levelOne from './data.js'
 
-const tbody = document.getElementById('tbody')
+
 
 // function sumLargestNumbers(){
 //   const allArrayValues = levelOne
@@ -11,7 +11,7 @@ const tbody = document.getElementById('tbody')
 
 //   console.log(AddTwoLargestNumbers)
 // }
-
+const tbody = document.getElementById('tbody')
 function loadData() {
   levelOne.forEach((item) => {
     const tr = document.createElement('tr')

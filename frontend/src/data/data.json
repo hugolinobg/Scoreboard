@@ -1,0 +1,28 @@
+{
+  "levelOne": [
+    {
+      "level": "Nível 1",
+      "rank": 1,
+      "team": "Cybernerds N1",
+      "roundOne": 150,
+      "timeOne": 300,
+      "roundTwo": 75,
+      "timeTow": 300,
+      "roundThree": 130,
+      "timeThree": 300,
+      "total": 280
+    },
+    {
+      "level": "Nível 1",
+      "rank": 1,
+      "team": "Cybernerds N1",
+      "roundOne": 150,
+      "timeOne": 300,
+      "roundTwo": 75,
+      "timeTow": 300,
+      "roundThree": 130,
+      "timeThree": 300,
+      "total": 280
+    }
+  ]
+}
