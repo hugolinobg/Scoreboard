@@ -1,8 +1,8 @@
-## Landing Page de uma Barbearia
+# Scoreboard
 
 <br>
 <p align="center">
-  <img alt=" Projeto Calculadora de IMC " src=".github/preview_1.png" width="70%">
+  <img alt=" Projeto Calculadora de IMC " src=".github/preview_1.png" width="90%">
   <br>
 </p>
 
@@ -17,14 +17,12 @@ Este projeto foi desenvolvido para auxiliar nos treinos de robótica, permitindo
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-# Fronend
-
+### Fronend
 - ReactJS
 - React-router-dom
 - Tailwindcss
 
-# Backend
-
+### Backend
 - NodeJS
 - Express
 - Cors
