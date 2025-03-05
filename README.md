@@ -17,12 +17,12 @@ Este projeto foi desenvolvido para auxiliar nos treinos de robótica, permitindo
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-### Fronend
+#### Fronend
 - ReactJS
 - React-router-dom
 - Tailwindcss
 
-### Backend
+#### Backend
 - NodeJS
 - Express
 - Cors
