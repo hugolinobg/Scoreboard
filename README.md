@@ -2,7 +2,7 @@
 
 <br>
 <p align="center">
-  <img alt=" Projeto Calculadora de IMC " src=".github/preview1.png" width="70%">
+  <img alt=" Projeto Calculadora de IMC " src=".github/preview_1.png" width="70%">
   <br>
 </p>
 
