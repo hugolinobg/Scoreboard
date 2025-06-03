@@ -206,6 +206,24 @@ const TableCarousel = ({ levelOne, levelTwo }) => {
           </tbody>
         </table>
       </div>
+
+      <footer className="mt-4 flex justify-center items-center space-x-2">
+        {/* Indicador para Nível 1 */}
+        <span
+          className={`w-4 h-4 rounded-full ${
+            tables ? 'bg-orange-500' : 'bg-gray-300'
+          }`}
+          title="Nível 1"
+        ></span>
+
+        {/* Indicador para Nível 2 */}
+        <span
+          className={`w-4 h-4 rounded-full ${
+            !tables ? 'bg-blue-500' : 'bg-gray-300'
+          }`}
+          title="Nível 2"
+        ></span>
+      </footer>
     </div>
   )
 }
