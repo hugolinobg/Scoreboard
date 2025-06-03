@@ -1,22 +1,23 @@
 import './Scores.css'
 
-import { useState, useEffect } from 'react'
+// import { useState, useEffect } from 'react'
 
 // import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
 import { ChevronDownIcon } from '@heroicons/react/16/solid'
 
-const [seconds, setSeconds] = useState(300) // 5 minutos = 300 segundos
+// const [seconds, setSeconds] = useState(300) // 5 minutos = 300 segundos
 
-useEffect(() => {
-  if (seconds <= 0) return
+// useEffect(() => {
+//   if (seconds <= 0) return
 
-  const interval = setInterval(() => {
-    setSeconds((prev) => prev - 1)
-  }, 1000)
+//   const interval = setInterval(() => {
+//     setSeconds((prev) => prev - 1)
+//   }, 1000)
 
-  // Limpeza do intervalo ao desmontar ou quando acabar
-  return () => clearInterval(interval)
-}, [seconds])
+//   // Limpeza do intervalo ao desmontar ou quando acabar
+//   return () => clearInterval(interval)
+// }, [seconds])
+
 
 // Função para formatar os segundos em mm:ss
 const formatTime = (secs) => {
@@ -38,10 +39,10 @@ const Scores = () => {
                 Personal Information
               </h2>
 
-              <div>
+              {/* <div>
                 <h1>Timer: {formatTime(seconds)}</h1>
                 <p>Segundos restantes: {seconds}</p>
-              </div>
+              </div> */}
 
               <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                 <div className="sm:col-span-full">
